@@ -1,6 +1,10 @@
 /* Styles for harry-styles site */
 
-    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
 
     /* header styles */
 
@@ -8,22 +12,46 @@
         display: flex;
         justify-content: center;
         margin: 2%;
+        font-size: 8vw;
     }
 
-    /* END OF: navigation styles */
+    /* END OF: header styles */
 
     /* main styles */
 
     /* styles for background jumbotron img */
+
     .bg-image {
         background-image: url('https://images.pexels.com/photos/2799605/pexels-photo-2799605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     }
+
+    /* opaque background color for jumbotron */
 
     .mask {
         background-color: rgba(0, 0, 0, 0.6);
         height: 500px;
     }
 
+    /* styles for product cards  */
+
+    /* made .card-body d-flex and flex-direction column to all of its children  */
+    .card-body {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    /* gave .brn in .card a margin-top of auto to push btn to bottom of each card in order to have them aligned the same */
+    .card .btn {
+    margin-top: auto !important;
+    }
+
+    /* END OF: styles for product cards  */
+
     /* END OF: main styles */
+
+    /* footer styles */
+
+
+    /* footer styles */
     
 /* END OF: Styles for harry-styles site
