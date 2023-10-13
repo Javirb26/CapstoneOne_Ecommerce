@@ -22,7 +22,8 @@
     /* styles for background jumbotron img */
 
     .bg-image {
-        background-image: url('https://images.pexels.com/photos/2799605/pexels-photo-2799605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        background-image: url('/images/hero-image.jpg');
+        background-size: cover;
     }
 
     /* opaque background color for jumbotron */
@@ -40,7 +41,7 @@
         flex-direction: column !important;
     }
 
-    /* gave .brn in .card a margin-top of auto to push btn to bottom of each card in order to have them aligned the same */
+    /* gave .btn and .card a margin-top of auto to push btn to bottom of each card in order to have them aligned the same */
     .card .btn {
     margin-top: auto !important;
     }
