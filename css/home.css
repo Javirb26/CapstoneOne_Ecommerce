@@ -21,7 +21,7 @@
 
             /* styles for background jumbotron img */
             .bg-image {
-                background-image: url('/images/hero-image.jpg');
+                background-image: url('../images/hero-image.jpg');
                 background-size: cover;
             }
             /* END OF: styles for background jumbotron img */
