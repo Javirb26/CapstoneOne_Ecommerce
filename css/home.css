@@ -1,58 +1,55 @@
 /* Styles for harry-styles site */
 
+    /* simple css reset */
     * {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
     }
+    /* END OF: simple css reset */
 
-    /* header styles */
+        /* header styles */
+        .header {
+            display: flex;
+            justify-content: center;
+            margin: 2%;
+            font-size: 8vw;
+        }
+        /* END OF: header styles */
 
-    .header {
-        display: flex;
-        justify-content: center;
-        margin: 2%;
-        font-size: 8vw;
-    }
+        /* main styles */
 
-    /* END OF: header styles */
+            /* styles for background jumbotron img */
+            .bg-image {
+                background-image: url('/images/hero-image.jpg');
+                background-size: cover;
+            }
+            /* END OF: styles for background jumbotron img */
 
-    /* main styles */
+            /* opaque background color for jumbotron */
+            .mask {
+                background-color: rgba(0, 0, 0, 0.6);
+                height: 500px;
+            }
+            /* END OF: opaque background color for jumbotron */
 
-    /* styles for background jumbotron img */
+            /* styles for product cards  */
 
-    .bg-image {
-        background-image: url('/images/hero-image.jpg');
-        background-size: cover;
-    }
+                /* made .card-body d-flex and flex-direction column to all of its children  */
+                .card-body {
+                    display: flex !important;
+                    flex-direction: column !important;
+                }
+                /* END OF: made .card-body d-flex and flex-direction column to all of its children  */
 
-    /* opaque background color for jumbotron */
+                /* gave .btn and .card a margin-top of auto to push btn to bottom of each card in order to have them aligned the same */
+                .card .btn {
+                margin-top: auto !important;
+                }
+                /* END OF: gave .btn and .card a margin-top of auto to push btn to bottom of each card in order to have them aligned the same */
 
-    .mask {
-        background-color: rgba(0, 0, 0, 0.6);
-        height: 500px;
-    }
+            /* END OF: styles for product cards  */
 
-    /* styles for product cards  */
-
-    /* made .card-body d-flex and flex-direction column to all of its children  */
-    .card-body {
-        display: flex !important;
-        flex-direction: column !important;
-    }
-
-    /* gave .btn and .card a margin-top of auto to push btn to bottom of each card in order to have them aligned the same */
-    .card .btn {
-    margin-top: auto !important;
-    }
-
-    /* END OF: styles for product cards  */
-
-    /* END OF: main styles */
-
-    /* footer styles */
-
-
-    /* footer styles */
+        /* END OF: main styles */
     
 /* END OF: Styles for harry-styles site
